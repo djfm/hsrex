@@ -12,7 +12,7 @@ instance View WelcomeView where
                   </h1>
 
                   <h2 style="margin-top: 0; margin-bottom: 0rem; font-weight: 900; font-size: 3rem">
-                      It's working!
+                      It's working! :)
                   </h2>
 
                   <p style="margin-top: 1rem; font-size: 1.75rem; font-weight: 600; color:hsla(196, 13%, 80%, 1)">
@@ -38,5 +38,5 @@ instance View WelcomeView where
               <p style="color: hsla(196, 13%, 50%, 1); margin-top: 4rem">
                  You can modify this start page by making changes to "./Web/View/Static/Welcome.hs".
               </p>
-         </div> 
+         </div>
 |]
