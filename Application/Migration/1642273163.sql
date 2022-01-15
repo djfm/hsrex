@@ -16,5 +16,5 @@ CREATE TABLE AutomationStep (
     instruction TEXT NOT NULL,
     params JSONB NOT NULL
 );
-ALTER TABLE AutomationScript ADD CONSTRAINT scenario FOREIGN KEY (scenarioid) REFERENCES automationscenario (id) ON DELETE NO ACTION;
-ALTER TABLE AutomationScript ADD CONSTRAINT step FOREIGN KEY (stepid) REFERENCES automationstep (id) ON DELETE NO ACTION;
+ALTER TABLE AutomationScript ADD CONSTRAINT id FOREIGN KEY (scenarioid) REFERENCES automationscenario (id) ON DELETE NO ACTION;
+ALTER TABLE AutomationScript ADD CONSTRAINT id FOREIGN KEY (stepid) REFERENCES automationstep (id) ON DELETE NO ACTION;
