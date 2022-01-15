@@ -1,3 +1,5 @@
+{-# LANGUAGE QuasiQuotes #-}
+
 module Web.View.Layout (defaultLayout, Html) where
 
 import IHP.ViewPrelude
