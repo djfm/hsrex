@@ -1,5 +1,3 @@
-{-# LANGUAGE QuasiQuotes #-}
-
 module Web.View.Static.Welcome where
 import Web.View.Prelude
 
